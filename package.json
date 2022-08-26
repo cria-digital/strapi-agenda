@@ -11,10 +11,13 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.3.6",
-    "@strapi/plugin-users-permissions": "4.3.6",
     "@strapi/plugin-i18n": "4.3.6",
-    "better-sqlite3": "7.4.6"
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/strapi": "4.3.6",
+    "better-sqlite3": "7.4.6",
+    "pg": "^8.8.0",
+    "strapi-provider-upload-digitalocean-nohash": "^1.0.2",
+    "strapi-provider-upload-do": "^3.6.6"
   },
   "author": {
     "name": "A Strapi developer"
